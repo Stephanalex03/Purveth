@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purveth Music Academy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Purveth Music Academy</h1>
+        <p>Your journey to musical mastery begins here!</p>
+    </header>
+    
+    <main>
+        <section class="info">
+            <h2>About Us</h2>
+            <p>At Purveth Music Academy, we offer a variety of music lessons for all ages and skill levels. Whether you are interested in learning guitar, piano, drums, or voice, we have a program for you!</p>
+        </section>
+
+        <section class="form-section">
+            <h2>Contact Us</h2>
+            <form id="contactForm" method="POST" action="https://formsubmit.co/stphanalex03@gmail.com">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="instrument">Interested Instrument:</label>
+                <select id="instrument" name="instrument" required>
+                    <option value="">Select an instrument</option>
+                    <option value="Guitar">Guitar</option>
+                    <option value="Piano">Piano</option>
+                    <option value="Drums">Drums</option>
+                    <option value="Violin">Violin</option>
+                    <option value="Voice">Voice</option>
+                </select>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Purveth Music Academy. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
